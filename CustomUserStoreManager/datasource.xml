@@ -1,0 +1,20 @@
+<datasource>
+    <name>CustomUserDB</name>
+    <description>Custom User Database</description>
+    <jndiConfig>
+        <name>jdbc/CustomUserDB</name>
+    </jndiConfig>
+    <definition type="RDBMS">
+        <configuration>
+            <url>jdbc:mysql://localhost:3306/Custom</url>
+            <username>root</username>
+            <password>root</password>
+            <driverClassName>com.mysql.jdbc.Driver</driverClassName>
+            <maxActive>50</maxActive>
+            <maxWait>60000</maxWait>
+            <testOnBorrow>true</testOnBorrow>
+            <validationQuery>SELECT 1</validationQuery>
+            <validationInterval>30000</validationInterval>
+        </configuration>
+    </definition>
+</datasource>
