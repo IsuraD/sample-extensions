@@ -1,0 +1,3 @@
+INSERT INTO TBL_USERS (id, first_name, last_name, email, date_of_birth) VALUES (1, 'Hasintha', 'Sri Lanka', 'hasintha@mail.com', '1989-01-01');
+INSERT INTO TBL_USERS (id, first_name, last_name, email, date_of_birth) VALUES (2, 'Thanuja', 'Sri Lanka', 'thanuja@mail.com', '1988-02-22');
+INSERT INTO TBL_USERS (id, first_name, last_name, email, date_of_birth) VALUES (3, 'Isura', 'Sri Lanka', 'isura@mail.com', '1988-03-03');
